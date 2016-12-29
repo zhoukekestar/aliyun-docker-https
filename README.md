@@ -23,7 +23,8 @@ console.log('express listen on 3000.')
 ```js
 var app = require('koa')()
 app.use(require('./index.js')({
-  ignore: ['/test/url$']
+  ignore: ['/test/url$'],
+  mode: 'koa'
 }));
 app.listen(3000)
 ```

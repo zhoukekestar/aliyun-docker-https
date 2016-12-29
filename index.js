@@ -2,6 +2,12 @@
 
 module.exports = function(config) {
 
+  if (typeof config === 'string') {
+    config = {
+      mode: config
+    };
+  }
+
   config = config || {};
 
   var header = config.header || 'x-forwarded-proto'
