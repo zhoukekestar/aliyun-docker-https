@@ -2,6 +2,8 @@
 
 module.exports = function(config) {
 
+  config = config || {};
+
   var header = config.header || 'x-forwarded-proto'
     , ignore = config.ignore || []
     , mode = config.mode || 'express'
