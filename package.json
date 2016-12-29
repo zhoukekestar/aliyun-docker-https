@@ -1,0 +1,26 @@
+{
+  "name": "aliyun-docker-https",
+  "version": "0.0.1",
+  "description": "Http to https for aliyun docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoukekestar/aliyun-docker-https.git"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "aliyun",
+    "docker",
+    "阿里云"
+  ],
+  "author": "zhoukekestar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhoukekestar/aliyun-docker-https/issues"
+  },
+  "homepage": "https://github.com/zhoukekestar/aliyun-docker-https#readme"
+}
